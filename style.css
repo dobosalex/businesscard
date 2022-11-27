@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Sono', sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  background: url('assets/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: rgba(120, 120, 120, 0.1); 
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+.head {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%; 
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(50%);
+}
+
+.name-headline {
+  padding: 10px;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.about {
+  margin-bottom: 10%;
+  padding: 10px;
+}
+
+.links {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}  
+
+li {
+  display: inline;
+}
